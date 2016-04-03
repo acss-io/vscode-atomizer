@@ -1,0 +1,46 @@
+{
+    "name": "atomizer",
+    "displayName": "Atomizer",
+    "description": "A tool to automatically generate Atomic CSS.",
+    "version": "0.0.6",
+    "publisher": "pankaj-parashar",
+    "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/pankajparashar/vscode-atomizer.git"
+    },
+    "galleryBanner": {
+        "color": "#cfe7ef",
+        "theme": "light"
+    },
+    "engines": {
+        "vscode": "^0.10.10"
+    },
+    "categories": [
+        "Other"
+    ],
+    "keywords": [
+        "Atomic CSS",
+        "ACSS",
+        "Atomizer",
+        "CSS",
+        "Snippets",
+        "Yahoo",
+        "VSCode"
+    ],
+    "icon": "acss-logo.png",
+    "activationEvents": [
+        "workspaceContains:atomizer.json"
+    ],
+    "main": "./extension",
+    "contributes": {},
+    "scripts": {
+        "postinstall": "node ./node_modules/vscode/bin/install"
+    },
+    "dependencies": {
+        "atomizer": "3.3.3"
+    },
+    "devDependencies": {
+        "vscode": "^0.11.0"
+    }
+}
