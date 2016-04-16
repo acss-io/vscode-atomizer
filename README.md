@@ -1,6 +1,6 @@
 ## Installation
 
-![](http://res.cloudinary.com/dw9fem4ki/image/upload/v1459669769/installation_iscrel.gif)
+![](http://res.cloudinary.com/dw9fem4ki/image/upload/c_mfit,q_100,w_1000/v1459669769/installation_iscrel.gif)
 
 ## Activation
 
