@@ -2,7 +2,7 @@
     "name": "atomizer",
     "displayName": "Atomizer",
     "description": "A tool to automatically generate Atomic CSS.",
-    "version": "0.0.6",
+    "version": "0.0.8",
     "publisher": "pankaj-parashar",
     "license": "MIT",
     "repository": {
@@ -18,7 +18,7 @@
     },
     "categories": [
         "Other",
-		"Snippets"
+        "Snippets"
     ],
     "keywords": [
         "Atomic CSS",
@@ -35,21 +35,21 @@
     ],
     "main": "./extension",
     "contributes": {
-		"snippets": [
-			{
-				"language": "html",
-				"path": "snippets.json"
-			},
-			{
-				"language": "javascript",
-				"path": "snippets.json"
-			},
-			{
-				"language": "javascriptreact",
-				"path": "snippets.json"
-			}
-		]
-	},
+        "snippets": [
+            {
+                "language": "html",
+                "path": "snippets.json"
+            },
+            {
+                "language": "javascript",
+                "path": "snippets.json"
+            },
+            {
+                "language": "javascriptreact",
+                "path": "snippets.json"
+            }
+        ]
+    },
     "scripts": {
         "postinstall": "node ./node_modules/vscode/bin/install"
     },
