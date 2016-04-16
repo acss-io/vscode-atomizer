@@ -2,7 +2,7 @@
     "name": "atomizer",
     "displayName": "Atomizer",
     "description": "A tool to automatically generate Atomic CSS.",
-    "version": "0.3.2",
+    "version": "0.3.4",
     "publisher": "pankaj-parashar",
     "license": "MIT",
     "repository": {
@@ -26,8 +26,8 @@
         "Atomizer",
         "CSS",
         "Snippets",
-        "Yahoo",
-        "VSCode"
+        "VSCode",
+        "Yahoo"
     ],
     "icon": "logo.png",
     "activationEvents": [
