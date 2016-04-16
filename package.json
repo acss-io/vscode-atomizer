@@ -7,7 +7,7 @@
     "license": "MIT",
     "repository": {
         "type": "git",
-        "url": "https://github.com/pankajparashar/vscode-atomizer.git"
+        "url": "https://github.com/acss-io/vscode-atomizer"
     },
     "galleryBanner": {
         "color": "#cfe7ef",
@@ -17,7 +17,8 @@
         "vscode": "^0.10.10"
     },
     "categories": [
-        "Other"
+        "Other",
+		"Snippets"
     ],
     "keywords": [
         "Atomic CSS",
@@ -28,17 +29,32 @@
         "Yahoo",
         "VSCode"
     ],
-    "icon": "acss-logo.png",
+    "icon": "logo.png",
     "activationEvents": [
         "workspaceContains:atomizer.json"
     ],
     "main": "./extension",
-    "contributes": {},
+    "contributes": {
+		"snippets": [
+			{
+				"language": "html",
+				"path": "snippets.json"
+			},
+			{
+				"language": "javascript",
+				"path": "snippets.json"
+			},
+			{
+				"language": "javascriptreact",
+				"path": "snippets.json"
+			}
+		]
+	},
     "scripts": {
         "postinstall": "node ./node_modules/vscode/bin/install"
     },
     "dependencies": {
-        "atomizer": "3.3.3"
+        "atomizer": "3.3.4"
     },
     "devDependencies": {
         "vscode": "^0.11.0"
