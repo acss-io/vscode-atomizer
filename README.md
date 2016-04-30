@@ -26,7 +26,7 @@ The extension activates automatically when it finds the `atomizer.json` file in 
 }
 ```
 
-> Please restart the editor for the changes to take effect. The autocomplete will work only for the files with the following extensions, `.html`, `.htm`, `.js` and `.jsx`.
+> Please restart the editor and then open the project folder in VSCode for the changes to take effect. The autocomplete will work only for the files with the following extensions, `.html`, `.htm`, `.js` and `.jsx`.
 
 ## Usage
 
